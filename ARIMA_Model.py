@@ -16,7 +16,7 @@ test_df = test_df.copy()
 test_df.loc[:, 'ARIMA'] = arima_forecast.values
 
 # Print metrics
-print("\n ARIMA Forecast Metrics:")
+print("\nARIMA Forecast Metrics:")
 for key, val in arima_metrics.items():
     print(f"{key}: {val:.2f}")
 
