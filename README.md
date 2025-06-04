@@ -99,22 +99,26 @@ The chart is saved as:
 
 ## File Structure
 
+```python
 Figma_Wikipedia_Pageviews_Forecast/
-├── charts/                          # All saved forecast and scenario plots (.png)
+│
+├── charts/ # All saved forecast and scenario plots (.png)
+│
 ├── Loading_Splitting_Evaluation.py # Loads data, prepares train/test split, defines metrics
-├── ARIMA_Model.py                  # ARIMA model forecast and chart
-├── SARIMA_Model.py                 # SARIMA (seasonal ARIMA) forecast and chart
-├── Prophet_Model.py                # Prophet model forecast and chart
-├── HoltWinters_Model.py            # Holt-Winters smoothing forecast and chart
-├── KNN_Model.py                    # k-NN regression model using lag features
-├── LightGBM_Model.py               # LightGBM forecast using lagged values
-├── Ensemble_Stacked.py             # Ridge regression combining multiple models
-├── Final_Results_Plots.py          # Comparison bar plots (MAE, RMSE, MAPE)
-├── final_lightgbm_forecast.py      # Full-year forecast with LightGBM
+├── ARIMA_Model.py # ARIMA model forecast and chart
+├── SARIMA_Model.py # SARIMA (seasonal ARIMA) forecast and chart
+├── Prophet_Model.py # Prophet model forecast and chart
+├── HoltWinters_Model.py # Holt-Winters smoothing forecast and chart
+├── KNN_Model.py # k-NN regression model using lag features
+├── LightGBM_Model.py # LightGBM forecast using lagged values
+├── Ensemble_Stacked.py # Ridge regression combining multiple models
+├── Final_Results_Plots.py # Comparison bar plots (MAE, RMSE, MAPE)
+│
+├── final_lightgbm_forecast.py # Full-year forecast with LightGBM
 ├── lightgbm_forecast_2025_2026.csv # Final LightGBM forecast output as CSV
-├── scenario_analysis.py            # Spike/drop scenario simulation and plot
-└── README.md                       # Project overview and instructions
-
+├── scenario_analysis.py # Spike/drop scenario simulation and plot
+└── README.md # Project overview and instructions
+```
 
 ---
 
