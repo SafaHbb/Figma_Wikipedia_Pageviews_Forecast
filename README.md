@@ -50,7 +50,7 @@ We tested both statistical and machine learning models to predict future pagevie
 | SARIMA           | statsmodels       |
 | Holt-Winters     | statsmodels       |
 | Prophet          | prophet           |
-| k-NN             | scikit-learn      |
+| KNN             | scikit-learn      |
 | LightGBM         | lightgbm          |
 | Ensemble Stacked | scikit-learn      |
 
@@ -72,7 +72,7 @@ Each model is evaluated on:
 | Model            | MAE     | RMSE    | MAPE     |
 |------------------|---------|---------|----------|
 | LightGBM         | 146.67  | 455.62  | 119.38   |
-| k-NN             | 147.37  | 982.02  | 80.10    |
+| KNN              | 147.37  | 982.02  | 80.10    |
 | EnsembleStacked  | 397.76  | 507.09  | 453.91   |
 | Holt-Winters     | 1208.27 | 1365.47 | 2482.06  |
 | ARIMA            | 1203.22 | 1301.88 | 2494.22  |
